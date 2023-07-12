@@ -19,4 +19,4 @@ def check_matplotlib():
 if not check_matplotlib():
     launch.run_pip("install matplotlib==3.6.2", desc="Installing matplotlib==3.7.2")
 
-launch.run_pip("pip install font-roboto", desc="installing roboto font")
+launch.run_pip("install font-roboto", desc="installing roboto font")
